@@ -2,6 +2,7 @@ slidenumbers: true
 slidecount: true
 
 [.slidenumbers: false]
+
 # Testing
 ## Neumodischer Kram?
 
@@ -10,6 +11,7 @@ slidecount: true
 ---
 
 [.slidenumbers: false]
+
 # TDD by Example
 ## November 2002, Kent Beck
 
@@ -24,6 +26,7 @@ Design-Prinzip: Keine Zeile Produktivcode ohne fehlschlagenden Test!
 ---
 
 [.slidenumbers: false]
+
 # `awk`
 ## Erstveröffentlichung 1977
 
@@ -44,6 +47,7 @@ Design-Prinzip: Keine Zeile Produktivcode ohne fehlschlagenden Test!
 ---
 
 [.slidenumbers: false]
+
 # Wasserfallmodell
 ## irgendwann 1970
 
@@ -68,6 +72,7 @@ Testing als Design-Prinzip
 ---
 
 [.slidenumbers: false]
+
 # SOFTWARE ENGINEERING Conference
 ## 07. – 11. Oktober 1968
 
@@ -93,6 +98,7 @@ Testing als Design-Prinzip
 
 [.slidenumbers: false]
 ![](assets/the-incredible-crash-dummies.jpeg)
+
 # Physikalische Hardwaretests
 ## [10. September 1959](https://www.welt.de/motor/article4489160/Beim-ersten-Crashtest-gab-es-fast-einen-Toten.html)
 
@@ -110,6 +116,7 @@ Testing als Design-Prinzip
 ---
 
 [.slidenumbers: false]
+
 # Symposium on advanced programming methods for digital computers
 ## 29. Juni 1956
 
@@ -136,6 +143,7 @@ Doch sind es nur Hirngespinste einzelner verwirrter Perfektionisten…
 ---
 
 [.slidenumbers: false]
+
 # ISO/IEC/IEEE 29119
 ## Teil 1 bis 3 vom 1. September 2013
 
@@ -145,6 +153,7 @@ Doch sind es nur Hirngespinste einzelner verwirrter Perfektionisten…
 ---
 
 [.build-lists: true]
+
 # ISO-29119
 ## Internationale Ablöse
 
@@ -158,6 +167,7 @@ IEEE = Institute of Electrical and Electronics Engineers
 ---
 
 [.build-lists: true]
+
 # Testtechniken
 ## Übergeordnete Gruppen
 
@@ -199,6 +209,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 ## App Version 1.0.0
 
 - A,B,C,D // Akzeptanz
+- // Regression
 - 0,1,2,3 // Explorativ
 
 ---
@@ -206,18 +217,18 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 # Testrecycling
 ## App Version 1.0.1
 
-- E
+- E,F,G,H
+- A,B,C,D
 - 0,1,4,5
-- A,B,C,D // Regression
 
 ---
 
 # Testrecycling
 ## App Version 1.1.0
 
-- F,G,H
+- I,J,K,L
+- A,B,C,D,E,F,G,H
 - 0,4,6,7,8,9
-- A,B,C,D,E
 
 ^ Nächstes Release 8 Regressionstests (A—H)
 Überblick behalten wird schwierig
@@ -226,6 +237,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 
 [.slidenumbers: false]
 ![](assets/xalltheytrue.jpg)
+
 # Automate **ALL THE** Tests!
 ## Manuell kostet Zeit und bindet Personal
 
@@ -233,6 +245,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 
 [.slidenumbers: false]
 ![](assets/xalltheyfalse.jpg)
+
 # Automate **ALL THE** Tests?
 ## Explorativ lässt sich (noch) nicht automatisieren
 
@@ -241,6 +254,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 ---
 
 [.build-lists: true]
+
 # Zu automatisierende Tests
 
 - Akzeptanztests
@@ -251,6 +265,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 ---
 
 [.slidenumbers: false]
+
 # Testanatomie
 ## Given…, When…, Then…
 
@@ -267,6 +282,7 @@ Mit allen möglichen und unmöglichen Mitteln versuchen, die Software kaputt zu 
 
 [.slidenumbers: false]
 ![](assets/experimentaldoggy.jpeg)
+
 # Prinzipiell ein wissenschaftliches Experiment
 
 ---
@@ -313,7 +329,8 @@ Abgleich der Testergebnisse mit der Erwartungshaltung.
 ---
 
 [.slidenumbers: false]
-# `Coding Time`
+
+# `Code Time`
 
 ---
 
@@ -356,16 +373,12 @@ func ExampleAllTheThings() {
 ---
 
 [.slidenumbers: false]
+
 # `Live Coding Time`
-## Optional
 
 ---
 
 [.slidenumbers: false]
-# Fragen, Ergänzungen, Anregungen
 
----
-
-[.slidenumbers: false]
 # That's All Folks
 ## "Tschüss!"
